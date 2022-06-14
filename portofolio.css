@@ -1,0 +1,119 @@
+@import url("https://use.typekit.net/fck7vob.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "ivypreseto-display", serif;
+}
+
+body {
+  background-color: #ffbdc0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "ivypreseto-display", serif;
+}
+
+p {
+  font-family: "ivypreseto-display", serif;
+  margin-top: 10px;
+  margin-left: -10px;
+  font-weight: 300px;
+  font-style: italic;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.nav-links {
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  list-style: none;
+}
+
+.nav-links li a {
+  font-family: "ivypreseto-display", serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  font-style: italic;
+  color: #005952;
+}
+
+.main-pg {
+  background-color: #005952;
+  opacity: 0.85;
+  color: #fffbf0;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  text-align: left;
+  box-shadow: 2px 15px 500px #ff7800;
+  position: absolute;
+  height: 400px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -2;
+}
+
+.main-pg .contact {
+  font-weight: bold;
+}
+
+button {
+  font-family: "ivypreseto-display", serif;
+  font-size: 15px;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-style: italic;
+  margin: auto;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff7800;
+  color: #005952;
+  cursor: pointer;
+  box-shadow: 2px 1px 1.5px #ffbdc0;
+}
+
+.btn-contact {
+  margin-left: -10px;
+}
+
+.btn-contact:hover {
+  color: #ff7800;
+}
+
+.btn-profile {
+  margin-right: 3px;
+  margin-left: 3px;
+  text-decoration: none;
+}
+
+.btn-git:hover {
+  color: #ff7800;
+}
+
+.btn-profile:hover {
+  opacity: 0.8;
+  color: #ff7800;
+  text-decoration: none;
+}
+
+.script-heading {
+  color: #ffbdc0;
+}
