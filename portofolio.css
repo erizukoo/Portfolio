@@ -105,13 +105,13 @@ button {
 }
 
 .btn-git:hover {
+   background-color: #ffbdc0;
   color: #ff7800;
 }
 
 .btn-profile:hover {
-  opacity: 0.8;
+   background-color: #ffbdc0;
   color: #ff7800;
-  text-decoration: none;
 }
 
 .script-heading {
